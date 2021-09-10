@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'E:\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\mari\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   'slugify'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v14.15.1
+4 verbose stack TypeError: cb.apply is not a function
+4 verbose stack     at C:\Users\mari\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+4 verbose stack     at FSReqCallback.oncomplete (fs.js:184:5)
+5 verbose cwd E:\complete-node-bootcamp-master\1-node-farm
+6 error Windows_NT 10.0.19042
+7 error argv "E:\\nodejs\\node.exe" "C:\\Users\\mari\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "update" "slugify"
+8 error node v14.15.1
+9 error npm  v3.10.10
+10 error cb.apply is not a function
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
